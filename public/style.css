@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f9;
+    
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container h2 {
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+    max-width: 300px; /* Controla el ancho máximo */
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    align-items: center;
+}
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.submit-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px; /* Consistente con los demás campos */
+    text-align: center; /* Centrar texto del botón */
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-btn{
+    display: flex;
+    margin: 10px;
+}
+
+.containercourse{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Ajusta el ancho de la tarjeta */
+    padding: 20px;
+    margin: 15px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta al pasar el mouse */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-text {
+    display: block; /* Asegura que cada <span> aparezca en una nueva línea */
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+.submit-btn:active {
+    background-color: #003f7f;
+    transform: scale(0.95); /* Efecto de encogimiento al hacer clic */
+}
+
+.role-select {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.profile-container h2 {
+    text-align: center;
+}
+.profile-info {
+    margin: 20px 0;
+}
+.profile-info label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.profile-info p {
+    margin: 5px 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #003f7f;
+}
